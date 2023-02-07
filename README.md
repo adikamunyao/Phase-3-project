@@ -5,15 +5,13 @@ Data science end of phase 3 project - Moringa school
 ## Overview
 Terry Stops are stops made by police officers on the basis of reasonable suspicion. The perceived race of the subject can be a factor in police officers' decision to stop and frisk a person. It is important to note, however, that race should not be used as the sole reason for a Terry Stop, as this could be discriminatory and violate a person's constitutional rights.
 
+The investigative detention doctrine first announced in Terry v. Ohio and amplified over the past fifty years has been much analyzed, praised, and criticized from a number of perspectives. 
+
 The use of perceived race in Terry Stops has been a source of contention, sparking debate about racial profiling and the possibility of racial bias in policing. It is critical for law enforcement agencies to train their officers to make stops based on reasonable suspicion rather than solely on a warrant.
 
-The CRISP-DM data science process was invloved
+The workbook will be set up using the CRISP-DM data science process framework as layed out below:
 
 ![the process](https://user-images.githubusercontent.com/115970348/217210012-25f65237-d691-46ab-9516-d2f80d119a87.png)
-
-
-   
-
 
 
 ## 1. Business Understanding
