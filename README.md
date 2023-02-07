@@ -89,7 +89,7 @@ based on models
 
 The raw data files which obtained by DataDriven can be found ;
 
-http://www.seattle.gov/police)
+[public source](http://www.seattle.gov/police)
 
 ##### Notebook:
 
