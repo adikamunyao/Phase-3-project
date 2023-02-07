@@ -3,11 +3,15 @@ Data science end of phase 3 project - Moringa school
 
 
 ## Overview
-Classification is a supervised machine learning technique used to predict the labels of categorical classes. The goal of classification is to accurately assign new data points to one of several predefined classes based on the training data. This is accomplished by developing a model that can learn the relationship between the independent and dependent categorical variables.
+Terry Stops are stops made by police officers on the basis of reasonable suspicion. The perceived race of the subject can be a factor in police officers' decision to stop and frisk a person. It is important to note, however, that race should not be used as the sole reason for a Terry Stop, as this could be discriminatory and violate a person's constitutional rights.
+
+The use of perceived race in Terry Stops has been a source of contention, sparking debate about racial profiling and the possibility of racial bias in policing. It is critical for law enforcement agencies to train their officers to make stops based on reasonable suspicion rather than solely on a warrant.
+
+The CRISPDM data science process was invloved
 
 
 
-     crispdm cycle
+   
 
 
 
@@ -29,29 +33,29 @@ Each record contains perceived demographics of the subject, as reported by the o
 Where available, data elements from the associated Computer Aided Dispatch (CAD) event (e.g. Call Type, Initial Call Type, Final Call Type) are included.
 
 ### Featues
-* Subject Age Group - Subject Age Group (10 year increments) as reported by the officer.
-* Subject ID - Key, generated daily, identifying unique subjects in the dataset using a character to character match of first name and last name. "Null" values indicate an "anonymous" or "unidentified" subject. Subjects of a Terry Stop are not required to present identification.
-* GO / SC Num - General Offense or Street Check number, relating the Terry Stop to the parent report. This field may have a one to many relationship in the data.
-* Terry Stop ID - Key identifying unique Terry Stop reports.
-* Stop Resolution - Resolution of the stop as reported by the officer.
-* Weapon Type - Type of weapon, if any, identified during a search or frisk of the subject. Indicates "None" if no weapons was found.
-* Officer ID - Key identifying unique officers in the dataset.
-* Officer YOB - Year of birth, as reported by the officer.
-* Officer Gender - Gender of the officer, as reported by the officer.
-* Officer Race - Race of the officer, as reported by the officer.
-* Subject Perceived Race - Perceived race of the subject, as reported by the officer.
-* Subject Perceived Gender - Perceived gender of the subject, as reported by the officer.
-* Reported Date - Date the report was filed in the Records Management System (RMS). Not necessarily the date the stop occurred but generally within 1 day.
-* Reported Time - Time the stop was reported in the Records Management System (RMS). Not the time the stop occurred but generally within 10 hours.
-* Initial Call Type - Initial classification of the call as assigned by 911.
-* Final Call Type - Final classification of the call as assigned by the primary officer closing the event.
-* Call Type - How the call was received by the communication center.
-* Officer Squad - Functional squad assignment (not budget) of the officer as reported by the Data Analytics Platform (DAP).
-* Arrest Flag - Indicator of whether a "physical arrest" was made, of the subject, during the Terry Stop. Does not necessarily reflect a report of an arrest in the Records Management System (RMS).
-* Frisk Flag - Indicator of whether a "frisk" was conducted, by the officer, of the subject, during the Terry Stop.
-* Precinct - Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
-* Sector - Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
-* Beat - Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
+     Subject Age Group - Subject Age Group (10 year increments) as reported by the officer.
+     Subject ID - Key, generated daily, identifying unique subjects in the dataset using a character to character match of first name and last name. "Null" values indicate an "anonymous" or "unidentified" subject. Subjects of a Terry Stop are not required to present identification.
+     GO / SC Num - General Offense or Street Check number, relating the Terry Stop to the parent report. This field may have a one to many relationship in the data.
+     Terry Stop ID - Key identifying unique Terry Stop reports.
+     Stop Resolution - Resolution of the stop as reported by the officer.
+     Weapon Type - Type of weapon, if any, identified during a search or frisk of the subject. Indicates "None" if no weapons was found.
+     Officer ID - Key identifying unique officers in the dataset.
+     Officer YOB - Year of birth, as reported by the officer.
+     Officer Gender - Gender of the officer, as reported by the officer.
+     Officer Race - Race of the officer, as reported by the officer.
+     Subject Perceived Race - Perceived race of the subject, as reported by the officer.
+     Subject Perceived Gender - Perceived gender of the subject, as reported by the officer.
+     Reported Date - Date the report was filed in the Records Management System (RMS). Not necessarily the date the stop occurred but generally within 1 day.
+     Reported Time - Time the stop was reported in the Records Management System (RMS). Not the time the stop occurred but generally within 10 hours.
+     Initial Call Type - Initial classification of the call as assigned by 911.
+     Final Call Type - Final classification of the call as assigned by the primary officer closing the event.
+     Call Type - How the call was received by the communication center.
+     Officer Squad - Functional squad assignment (not budget) of the officer as reported by the Data Analytics Platform (DAP).
+     Arrest Flag - Indicator of whether a "physical arrest" was made, of the subject, during the Terry Stop. Does not necessarily reflect a report of an arrest in the Records Management System (RMS).
+     Frisk Flag - Indicator of whether a "frisk" was conducted, by the officer, of the subject, during the Terry Stop.
+     Precinct - Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
+     Sector - Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
+     Beat - Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
 
 
 ### Objectives
