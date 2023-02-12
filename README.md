@@ -72,14 +72,18 @@ To create a classifier that can predict the outcome of a Terry Stop (whether or 
 
 
 ## Modelling
-perfomance
-models eda
+Logistic Regression - baseline
+Random Forest Classifier
+Suport Vector Machine
 
 ## Evaluation
-models metrics
-matrix
+recall
+f1 score
+precision
+accuracy
+
 ## Conclsion
-based on models
+In conclusion, the results of this project indicate that machine learning models can be effectively used to analyze Terry stop data to determine resolution arrests. The model has successfully identified the most important features for making predictions, which can provide valuable insights for policymakers and law enforcement agencies. However, it's important to keep in mind that this is just one part of the overall analysis and further investigation may be required to gain a more comprehensive understanding of the data.
 
 
 ## Repository Guide
@@ -93,11 +97,13 @@ The raw data files which obtained by DataDriven can be found ;
 
 github repo
 
-##### Presentation:
+##### Presentation
+[Non-technical](https://www.canva.com/design/DAFXfhgl6m8/Iub4k4xCMvJpaY10pTTnUg/edit?utm_content=DAFXfhgl6m8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Presentation can be found from here in .pdf format ;
 
-pdf format
+##### Data Report
+[google docs](https://docs.google.com/document/d/122T2lqs0ynaAP4yY1iK_dvZzpJIRp1AzstU48Gdjy_Q/edit?usp=sharing)
 canva
 
 
